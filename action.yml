@@ -1,4 +1,4 @@
 name: 'hello'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'src/manage/Dockerfile'
