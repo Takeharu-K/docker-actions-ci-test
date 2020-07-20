@@ -2,3 +2,5 @@ name: 'hello'
 runs:
   using: 'docker'
   image: 'src/manage/Dockerfile'
+  using: 'docker'
+  image: 'Dockerfile'
