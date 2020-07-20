@@ -1,3 +1,3 @@
 FROM alpine:latest
-COPY entry2.sh /app/entry.sh
-ENTRYPOINT ['/app/entry.sh']
+COPY entry2.sh /app/entry2.sh
+ENTRYPOINT ['/app/entry2.sh']
