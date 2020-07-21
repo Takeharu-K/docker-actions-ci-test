@@ -1,5 +1,5 @@
-# docker-actions-ci-test
-CI flow
-1. Select path to Dockerfile
-2. Build Docker image
-3. Push the image to Packages
+# CI
+CI does follows:
+
+Run docker-compose to build images and run containers(manage, comp containers)
+Run shell script in each containers
