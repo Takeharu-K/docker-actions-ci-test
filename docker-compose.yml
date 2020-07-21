@@ -1,0 +1,8 @@
+version: '3'
+services: 
+    manage:
+        container_name: manage
+        build: ./src/manage/
+    comp:
+        container_name: comp
+        build: ./src/comp

@@ -1,11 +1,16 @@
+name: container-unit-test
 on: push
 
 jobs:
-  hello-job:
+  test:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Run Actions 
-        uses: ./
+      - name: Build the images
+        run : docker-compose up -d
+      - name: Test manage
+        run : docker-compose run manage /app/entry.sh
+      - name: Test comp
+        run : docker-compose run comp /app/entry.sh
