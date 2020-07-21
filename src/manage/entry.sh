@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo 'Hello. This is from manage'
+echo 'Hello. This is from manage😎'

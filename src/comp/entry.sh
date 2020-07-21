@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo 'Hello. This is from comp'
+echo 'Hello. This is from comp😇'
