@@ -11,6 +11,6 @@ jobs:
       - name: Build the images
         run : docker-compose up -d
       - name: Test manage
-        run : docker-compose exec manage /bin/sh /app/entry.sh
+        run : docker-compose run manage /app/entry.sh
       - name: Test comp
-        run : docker-compose exec comp /bin/sh /app/entry.sh
+        run : docker-compose run comp /app/entry.sh
